@@ -23,6 +23,7 @@ import android.annotation.LayoutRes;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.icu.text.MessageFormat;
+import android.graphics.drawable.VectorDrawable;
 import android.text.TextUtils;
 import android.util.SparseIntArray;
 import android.view.LayoutInflater;
@@ -101,6 +102,10 @@ public class DreamAdapter<DreamItemT extends IDreamItem>
                 icon = item.isActive()
                         ? mContext.getDrawable(R.drawable.ic_dream_check_circle)
                         : item.getIcon().mutate();
+            }
+            if (icon instanceof VectorDrawable) {
+                icon.setTintList(
+                        mContext.getColorStateList(R.color.dream_card_icon_color_state_list));
             }
             final int iconSize = mContext.getResources().getDimensionPixelSize(
                     R.dimen.dream_item_icon_size);
