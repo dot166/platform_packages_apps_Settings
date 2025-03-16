@@ -54,7 +54,7 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
-import io.github.dot166.jLib.app.jLIBCoreApp;
+import io.github.dot166.jlib.app.jLIBCoreApp;
 
 /** Settings application which sets up activity embedding rules for the large screen device. */
 @ProvidePreferenceScreenOptions(
