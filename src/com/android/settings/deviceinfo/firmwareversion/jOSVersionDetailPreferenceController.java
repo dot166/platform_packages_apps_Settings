@@ -1,6 +1,6 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
-import static io.github.dot166.jLib.jOS.Build.jOS_RELEASE;
+import static io.github.dot166.jlib.jos.Build.jOS_RELEASE;
 
 import android.content.Context;
 import android.content.Intent;
