@@ -27,7 +27,7 @@ public class jOSVersionDetailPreferenceController extends BasePreferenceControll
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String PLATLOGO_PACKAGE_NAME = "jOS.System";
+    private static final String PLATLOGO_PACKAGE_NAME = "jos.system";
     private static final String PLATLOGO_ACTIVITY_CLASS =
             PLATLOGO_PACKAGE_NAME + ".PlatLogoActivity";
 
