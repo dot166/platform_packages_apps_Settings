@@ -86,6 +86,8 @@ public class ZenModeFragment extends ZenModeFragmentBase {
                 context, "allow_all", mBackend));
         prefControllers.add(new ManualDurationPreferenceController(
                 context, "mode_manual_duration", this, mBackend));
+        prefControllers.add(new VibrateOnDNDPreferenceController(
+                context, "vibrate_on_dnd", mBackend));
         return prefControllers;
     }
 

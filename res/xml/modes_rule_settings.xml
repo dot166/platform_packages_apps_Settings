@@ -90,5 +90,11 @@
                 android:key="mode_manual_duration"
                 android:title="@string/zen_category_duration"
                 android:icon="@drawable/ic_zen_mode_category_duration" />
+
+        <SwitchPreferenceCompat
+                android:key="vibrate_on_dnd"
+                android:title="@string/vibrate_on_dnd"
+                android:summary="@string/vibrate_on_dnd_summary"
+                android:icon="@drawable/ic_zen_mode_category_other" />
     </PreferenceCategory>
 </PreferenceScreen>
